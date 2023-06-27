@@ -1,0 +1,33 @@
+@types/bcrypt
+prisma
+git-commit-msg-linter
+eslint-plugin-import-helpers
+
+
+
+
+
+
+npm i --save @nestjs/core @nestjs/common rxjs reflect-metadata @nestjs/config
+@nestjs/jwt
+@nestjs/mapped-types
+@nestjs/passport
+@nestjs/swagger
+@prisma/client
+bcrypt
+class-transformer
+class-validator
+passport
+passport-jwt
+swagger-ui-express
+swagger-ui-express
+
+chmod +x .docker/entrypoint.sh
+
+npm install prisma -D
+
+npx prisma init
+
+npx prisma migrate dev --name start// iniciliaza o prisma lcient caso nao exista e cria as migrações no nosso banco de daods
+
+prisma generate //eh tipo o migration run
