@@ -1,5 +1,6 @@
 anot
 .env
+.vscode/
 .docker/dbdata
 # compiled output
 /dist
