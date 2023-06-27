@@ -11,5 +11,7 @@ import { UsersModule } from './modules/users/users.module';
   imports: [ConfigModule.forRoot(), UsersModule, AuthModule, PostsModule, ReactModule],
   controllers: [AppController],
   providers: [AppService],
+
+
 })
 export class AppModule { }
